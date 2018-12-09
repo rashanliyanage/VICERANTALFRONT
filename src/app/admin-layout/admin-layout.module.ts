@@ -9,6 +9,8 @@ import {SideBarComponent} from './side-bar/side-bar.component';
 import  {NavBarComponent} from './nav-bar/nav-bar.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import {SubjectComponent} from '../admin-layout/components/subject/subject.component';
+import {NewLessionComponent} from './components/new-lession/new-lession.component';
 
 @NgModule({
     imports: [
@@ -18,7 +20,9 @@ import { FormsModule } from '@angular/forms';
       AdminLayoutComponent,
       DashboardComponent,
       SideBarComponent,
-      NavBarComponent
+      NavBarComponent,
+      SubjectComponent,
+      NewLessionComponent
 		]
 })
 export class AdminLayoutModule {}
